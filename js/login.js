@@ -1,18 +1,17 @@
-// 로티 파일 경로
-const animationPath = './src/login.json';
+// 로티파일경로
+const animationPath = './src/animation8.json';
 
-// 애니메이션 DIV ID
+// 애니메이션 div id 
 const ani = document.getElementById('lottie-animation');
 
 // 로티파일 설정 옵션 
 const aniOp = {
-    container: ani, // 렌더링 요소
+    container : ani, // 렌더링요소
     randerer: 'svg', // 렌더링 방식
-    loop: true, // 반복
-    autoplay: true, // 자동재생
-    path: animationPath // 로티파일 경로 
+    loop : true, // 반복 
+    autoplay:true, // 자동재생 
+    path:animationPath // 로티파일 경로 지정
 };
-
 // 로티파일 로드 및 애니메이션 표시 
 const anim = lottie.loadAnimation(aniOp);
 // .loadAnimation() 함수는,
