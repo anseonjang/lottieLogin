@@ -1,5 +1,5 @@
 // 로티파일경로
-const animationPath = './src/animation8.json';
+const animationPath = './src/login.json';
 
 // 애니메이션 div id 
 const ani = document.getElementById('lottie-animation');
